@@ -25,7 +25,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-Modelsales = pickle.load(open("/content/modelflights.h5", "rb")) 
+Modelsales = pickle.load(open("modelflights.h5", "rb")) 
 
 prediction = Modelsales.predict(df)
 
