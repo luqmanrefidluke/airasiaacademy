@@ -25,7 +25,6 @@ elif option=='T n C':
         st.write(pd.DataFrame({
             'Students': ['John', 'Lofa', 'Siti', 'Amy', 'Luke', 'Herda', 'Gajen'],
             'Attendance Status': ['no', 'yes', 'no', 'no', 'yes', 'yes','yes']
-
 elif option=='Long Process':
     'Starting a long computation...'
 
